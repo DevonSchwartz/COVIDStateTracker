@@ -23,15 +23,19 @@ def getDate(rowIndex): # return the data of a certain entry
 def getDeathsToDate(rowIndex): #return total deaths in a certain state up to the desired date
 	return df.iloc[rowIndex]["deaths"]
 
-def getDailyDeathCount(rowIndex,state): # get number of deaths that occured on a specific day 
+def getDailyDeathCount(rowIndex): # get number of deaths that occured on a specific day 
+	state = getState(rowIndex) 
 	for i in range(rowIndex - 1,-1,-1):
 		if getState(i) == state:
-			return getDeathsToDate(rowIndex) - getDeathsToDate(i)	
+			return getDeathsToDate(rowIndex) - getDeathsToDate(i)
+	return getDeathsToDate(rowIndex) 	
 
 def getCasesToDate(rowIndex): #return total cases in a certain state up to the desired date
 		return df.iloc[rowIndex]["cases"]
 
-def getDailyCaseCount(rowIndex,state): # get number of cases that occured on a specific day 
-		for i in range(rowIndex - 1,-1,-1):
-			if getState(i) == state:
-				return getCasesToDate(rowIndex) - getCasesToDate(i)
+def getDailyCaseCount(rowIndex): # get number of cases that occured on a specific day 
+	state = getState(rowIndex) 
+	for i in range(rowIndex - 1,-1,-1):
+		if getState(i) == state:
+			return getCasesToDate(rowIndex) - getCasesToDate(i)
+	return getCaseToDate(rowIndex) 
