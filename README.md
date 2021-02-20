@@ -41,6 +41,11 @@ states.getCasesToDate(index) # returns total number of cases in a certain state 
 
 states.getDailyCaseCount(index) # returns the number of cases in a certain state that happen in a single day for a given COVID-19 data entry
 
+states.getDateIndex(date) # returns all the indexes of a given date in the dataframe in a list
+
+states.getStateIndex(state) # returns all the indexes of a given state in the dataframe in a list
+
+
 ```
 
 

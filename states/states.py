@@ -38,4 +38,11 @@ def getDailyCaseCount(rowIndex): # get number of cases that occured on a specifi
 	for i in range(rowIndex - 1,-1,-1):
 		if getState(i) == state:
 			return getCasesToDate(rowIndex) - getCasesToDate(i)
-	return getCaseToDate(rowIndex) 
+	return getCasesToDate(rowIndex)
+
+def getDateIndex(date):
+	return df[df["date"]==date].index.values
+
+def getStateIndex(state):
+	return df[df["state"]==state].index.values
+ 
