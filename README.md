@@ -14,7 +14,7 @@ pip install COVIDDataInterface
 
 Install pandas 
 
-[pandas PyPI link] (https://pypi.org/project/pandas/) 
+https://pypi.org/project/pandas/
 
 OR
 
