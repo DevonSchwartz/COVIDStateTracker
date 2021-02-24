@@ -50,10 +50,6 @@ states.getStateIndex(state) # returns all the indexes of a given state in the da
 
 ```
 
-## Documentation
-
-
-[Insert link to documentation here]
 
 
 ## Contributing
