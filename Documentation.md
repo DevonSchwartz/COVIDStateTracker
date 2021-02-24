@@ -38,13 +38,11 @@ Get the number of deaths that occured *only* on the entry number specified.
 **RETURNS**: Integer number of deaths only on that day
 
 ## getDateIndex(date)
-**RETURNS** the entry number that a date was recorded on
 
 **PARAMETERS**: String that is the date \
 **RETURNS**: An array of all the entry numbers (indexes) that the data for that date was recorded
 
 ## getStateIndex(state)
-**RETURNS** the entry number that a given state is found on
 
 **PARAMETERS**: String that is the state \
 **RETURNS**: An array of all the entry numbers (indexes) that the data for that state was recorded
