@@ -1,4 +1,4 @@
-# COVIDDataInterface
+# COVID State Tracker
 COVIDDataInterface is used to interface with Pandas to more easily access COVID data published by the New York Times
 
 
@@ -7,7 +7,7 @@ COVIDDataInterface is used to interface with Pandas to more easily access COVID 
 Use [Insert PyPI Link here]
 
 ``` bash
-pip install COVIDDataInterface
+pip install covidstatetracker
 ```
 
 ### Requirements
