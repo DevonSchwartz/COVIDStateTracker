@@ -7,7 +7,7 @@ LONG_DESCRIPTION = 'Package to Access State COVID Data for camp, interface with 
 # Setting up
 setup(
        # the name must match the folder name 'verysimplemodule'
-        name="COVIDDataInterface", 
+        name="covidstatetracker", 
         version= VERSION,
         author="Devon Schwartz and Neil Aylor",
         author_email="<devon.s.schwartz@gmail.com>",
