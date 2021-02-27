@@ -1,6 +1,7 @@
 from states import states
 print (states.getDF())
-lstOfStates = states.getStateIndex("Texas")
+texasIndexes = states.getStateIndex("Texas")
+dates = states.getDateRange("2021-01-21", "2021-02-21")
 
-for i in lstOfStates:
-	print (states.getDailyCaseCount(i), states.getDailyDeathCount(i),states.getDate(i)) 
+
+states.graphDatesCases("Texas",dates)
