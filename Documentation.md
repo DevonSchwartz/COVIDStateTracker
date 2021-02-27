@@ -48,3 +48,17 @@ Gets a list of entry numbers that a given state is found on
 
 **PARAMETERS**: String that is the state \
 **RETURNS**: An array of all the entry numbers (indexes) that the data for that state was recorded
+
+## graphDatesCases(state,dates)
+Create a line graph with dates on the x-axis and daily cases on the y-axis for a given state
+
+**PARAMETERS**: String that is the state, a list of dates \
+
+## graphDatesDeaths(state,dates)
+Create a line graph with dates on the x-axis and daily deaths on the y-axis for a given state
+
+**PARAMETERS**: String that is the state, a list of dates \
+
+## getDateRange(startDate,endDate)
+Create a list of dates between the start and end date (inclusive)
+**PARAMETERS**: String that is the start date, String that is the end date \

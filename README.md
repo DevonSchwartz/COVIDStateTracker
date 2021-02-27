@@ -47,6 +47,13 @@ states.getDateIndex(date) # returns all the indexes of a given date in the dataf
 
 states.getStateIndex(state) # returns all the indexes of a given state in the dataframe in a list
 
+states.graphDateCases(state, dates) # creates line graph of dates on the x axis and cases on the y axis for a given state
+
+states.graphDateDeaths(state, dates) # creates line graph of dates on the x axis and daily deaths on the y axis for a given state
+
+states.getDateRange(startDate, endDate) # returns list of dates (inclusive) from start date to end startDate
+
+
 
 ```
 
