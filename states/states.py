@@ -66,13 +66,13 @@ def graphDatesCases(state, dates): #graph Dates on x axis and Cases in a state o
 
 
 
-		plt.figure(dpi=50, figsize=(20,14)) 
+		plt.figure(dpi=40, figsize=(20,14)) 
 	
 		ax = plt.axes() 
 		ax.grid(linewidth=0.2, color='#8f8f8f')  
 		
 		ax.set_facecolor("black")  
-		ax.set_xlabel('Date\n',size=14,color='#4bb4f2') 
+		ax.set_xlabel('Date\n',labelpad = -70, size=14,color='#4bb4f2') 
 		ax.set_ylabel('Number of Confirmed Cases in ' + state + '\n', size=14,color='#4bb4f2') 
 		
 		plt.xticks(rotation='vertical',size='12',color='white') 
@@ -112,13 +112,13 @@ def graphDatesDeaths(state, dates): #graph Dates on x axis and deaths in a state
 
 	
 
-		plt.figure(dpi=60, figsize=(20,14)) 
+		plt.figure(dpi=50, figsize=(20,14)) 
 	
 		ax = plt.axes() 
 		ax.grid(linewidth=0.2, color='#8f8f8f')  
 		
 		ax.set_facecolor("black")  
-		ax.set_xlabel('Date\n',size=14,color='#4bb4f2') 
+		ax.set_xlabel('Date\n',labelpad = -70, size=14,color='#4bb4f2') 
 		ax.set_ylabel('Number of Confirmed Deaths in ' + state + '\n', size=14,color='#4bb4f2') 
 		
 		plt.xticks(rotation='vertical',size='12',color='white') 
