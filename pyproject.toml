@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "covidstatetracker"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="Devon Schwartz", email="devon.s.schwartz@gmail.com" },
 ]

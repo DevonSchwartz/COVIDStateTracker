@@ -4,7 +4,7 @@ COVID State Tracker is used to interface with Pandas to more easily access COVID
 
 ## Installation 
 
-Use https://pypi.org/project/covidstatetracker/0.0.1/
+Use https://pypi.org/project/covidstatetracker
 
 ``` bash
 pip install covidstatetracker
