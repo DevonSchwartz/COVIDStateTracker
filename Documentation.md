@@ -37,6 +37,19 @@ Get the number of deaths that occured *only* on the entry number specified.
 **PARAMETERS**: Integer that is the entry number (index) of the daily death count you want to find \
 **RETURNS**: Integer number of deaths only on that day
 
+
+## getCasesToDate(entryNumber)
+This function gives the total cases at the time the data entry was taken.
+
+**PARAMETERS**: Integer that is the entry number (index) of the cases to date you want to find \
+**RETURNS**: Integer number of cases
+
+## getDailyCaseCount(entryNumber)
+Get the number of cases that occured *only* on the entry number specified.
+
+**PARAMETERS**: Integer that is the entry number (index) of the daily case count you want to find \
+**RETURNS**: Integer number of cases only on that day
+
 ## getDateIndex(date)
 Gets a list of the entry numbers that a date was recorded on
 
