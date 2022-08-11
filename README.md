@@ -1,10 +1,10 @@
 # COVID State Tracker
-COVIDDataInterface is used to interface with Pandas to more easily access COVID data published by the New York Times
+COVID State Tracker is used to interface with Pandas to more easily access COVID data published by the New York Times
 
 
 ## Installation 
 
-Use [Insert PyPI Link here]
+Use https://pypi.org/project/covidstatetracker/0.0.1/
 
 ``` bash
 pip install covidstatetracker
@@ -25,7 +25,7 @@ pip install pandas
 ## Usage
 ``` python 
 
-from states import states
+from covidstates import states
 
 states.getDF() # returns entire us-states dataframe from NYTimes with five columns (exlcuding index): date, state, fips (ignore), cases, deaths
 
