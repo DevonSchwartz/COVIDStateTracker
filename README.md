@@ -22,6 +22,15 @@ OR
 pip install pandas 
 ```
 
+Install MatPlotLib
+
+https://pypi.org/project/matplotlib/
+
+or 
+```bash 
+pip install matplotlib
+```
+
 ## Usage
 ``` python 
 
